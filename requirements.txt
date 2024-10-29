@@ -1,0 +1,5 @@
+PySide6
+requests
+pytz
+QT-PyQt-PySide-Custom-Widgets
+firebase-admin

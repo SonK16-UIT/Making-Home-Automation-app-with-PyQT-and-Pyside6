@@ -1,0 +1,38 @@
+{
+  "QPushButton": [
+    {
+      "name": "menuBtn",
+      "icon": "Qss/icons/icons/feather/menu.png"
+    },
+    {
+      "name": "minimizeBtn",
+      "icon": "Qss/icons/icons/feather/minus.png"
+    },
+    {
+      "name": "restoreBtn",
+      "icon": "Qss/icons/icons/feather/square.png"
+    },
+    {
+      "name": "closeBtn",
+      "icon": "Qss/icons/icons/feather/window_close.png"
+    }
+  ],
+  "QLabel": [
+    {
+      "name": "label_13",
+      "pixmap": "Qss/icons/icons/feather/cloud.png"
+    },
+    {
+      "name": "label",
+      "pixmap": "Qss/icons/icons/feather/user.png"
+    },
+    {
+      "name": "label_2",
+      "pixmap": "Qss/icons/icons/feather/log-out.png"
+    },
+    {
+      "name": "label_20",
+      "pixmap": "Qss/icons/icons/feather/user.png"
+    }
+  ]
+}

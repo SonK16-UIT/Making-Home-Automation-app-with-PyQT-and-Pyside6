@@ -1,0 +1,84 @@
+
+            //===================================================//
+            // FILE AUTO-GENERATED. PUT YOUR DEFAULT STYLES HERE. 
+            // THESE STYLES WILL OVERIDE THE THEME STYLES
+            //====================================================//
+            *{
+                font-family:'Roboto';
+            }
+            QMainWindow, #centralwidget{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 10px;
+                border: 3px solid $COLOR_BACKGROUND_4;
+            }
+            QPushButton, QLineEdit, QDateEdit{
+                padding: 8px 10px;
+                border-radius: 10px;
+            }
+            #leftMenu{
+                & QWidget{
+                    background-color: transparent;
+                }
+                background-color: $COLOR_BACKGROUND_1;
+                padding-top: 10px;
+                border-right: 6px solid $COLOR_BACKGROUND_3;
+            }
+            #headerMenu{
+                #pagesBtn{ 
+                    QPushButton{
+                    background-color: transparent;
+                    padding: 5px 10px;
+                    border-radius: 0;
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    }
+                }
+            }
+            #stackPages {
+                & > QStackedWidget{
+                    border-radius: 10px;
+                    background-color: transparent;
+                    border: none;
+                }
+            }
+            #leftHeader_Menu, #headerMenu {
+                background-color: $COLOR_BACKGROUND_1;
+                * {
+                    background-color: transparent;
+                }
+                border-bottom: $BORDER_2;
+            }
+            #stackedPages{
+                background-color: $COLOR_BACKGROUND_2;
+                border: none;
+                border-radius: 10px;
+                QStackedWidget{
+                    background-color: transparent;
+                    border: none;
+                }
+                #homePage, #scenarioPage, #settingPage, #voiceassisPage{
+                    background-color: $COLOR_BACKGROUND_2;
+                    *, QWidgets{
+                        background-color: transparent;
+                        border: none;
+                    }
+                }
+            }
+            #headerMenu{
+                #actionsBtn{
+                    padding: 0;
+                    QPushButton{
+                        padding: 4 2px;
+                        border-radius: 0;
+                        &:hover{
+                            background-color: $COLOR_BACKGROUND_2;
+                        }
+                    }
+                }
+            }
+            //===================================================//
+            // END //
+            //====================================================//
+            
